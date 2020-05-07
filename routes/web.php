@@ -13,26 +13,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function () {return view('welcome');
 });
 
-Route::get('login', function(){
-    return view('/frontend/auth/login');
+Route::get('login', function() {return view('/frontend/auth/login');
 });
 
-Route::get('register', function(){
-    return view('/frontend/auth/register');
+Route::get('register', function() {return view('/frontend/auth/register');
 });
 
-Route::get('bookmark', function(){
-    return view('/frontend/bookmark');
+Route::get('bookmark', function() {return view('/frontend/bookmark');
 });
 
-Route::get('/test', function(){
-    return view('/frontend/test');
+Route::get('/test', function() {return view('/frontend/test');
 });
 
-Route::get('/frontend/friends', function(){
-    return view('friends');
+Route::get('friends', function() {return view('/frontend/friends');
+});
+
+Route::get('mail', function() {return view('/frontend/mail');
+});
+
+Route::get('settings', function() {return view('/frontend/settings');
+});
+
+Route::get('home', function() {return view('/frontend/home');
 });
