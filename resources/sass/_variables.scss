@@ -1,5 +1,12 @@
 // Body
-$body-bg: #f8fafc;
+body{
+    font-family: sans-serif;
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+    background: url(/images/curtains.jpg);
+    background-size: cover;
+}
 
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;

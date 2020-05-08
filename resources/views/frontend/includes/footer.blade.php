@@ -9,7 +9,7 @@ Einstellen, dass angeklickter Button geklicked ist
 
 <footer>
 
-<div class="container">
+<div class="container bg-info">
 
   <div class="row justify-content-center">
     <div class="col-sm">

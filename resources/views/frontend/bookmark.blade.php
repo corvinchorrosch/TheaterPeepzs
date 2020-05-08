@@ -1,2 +1,5 @@
-gebookmarkte Veranstaltungen
-Freude einladen
+<!-- gebookmarkte Veranstaltungen
+Freude einladen -->
+
+
+@extends('frontend/layouts/app')
