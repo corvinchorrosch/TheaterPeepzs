@@ -7,27 +7,22 @@ Rechts Button Settings
 Einstellen, dass angeklickter Button geklicked ist
 -->
 
-<footer class="bg-info fixed-bottom">
+<footer class="bg-info fixed-bottom pb-1 pt-1">
 
 <div class="container">
 
-  <div class="row justify-content-center navbar">
-  
-    <div class="col-sm">
-    <button>Home</button>
-    </div>
+  <div class="justify-content-center d-flex justify-content-around">
+    
+    <button class="btn btn-secondary btn-number">Home</button>
 
-    <div class="col-sm">
-    <button>Friends</button>
-    </div>
+    <button class="btn btn-secondary btn-number">Friends</button>
 
-    <div class="col-sm">
-    <button>Mail</button>
-    </div>
+    <button class="btn btn-secondary btn-number">Mail</button>
 
-    <div class="col-sm">
-    <button>Settings</button>
-    </div>
+    <a href="profile">
+    <button class="btn btn-secondary btn-number">Profile</button>
+    </a>
+
   </div>
 
 </div>
