@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<!-- Links Logo
+Mitte Suchfunktion
+Rechts Logout
+-->
 
-    test 
-    
-</body>
-</html>
+
+
+<header class="sticky-top bg-info">
+<div class="container">
+
+  <div class="row justify-content-center align-items-center navbar">
+
+    <div class="col-md position-relative">
+    <img src="placeholder.png" alt="_blank">
+    </div>
+    <div class="col-md position-relative">
+    <input type="text"></input> <button>search</button>
+    </div>
+    <div class="col-md position-relative">
+    </div>
+  </div>
+</div>
+</header>

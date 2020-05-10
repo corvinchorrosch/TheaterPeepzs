@@ -34,7 +34,7 @@ Route::get('friends', function() {return view('/frontend/friends');
 Route::get('mail', function() {return view('/frontend/mail');
 });
 
-Route::get('settings', function() {return view('/frontend/settings');
+Route::get('profile', function() {return view('/frontend/profile');
 });
 
 Route::get('home', function() {return view('/frontend/home');

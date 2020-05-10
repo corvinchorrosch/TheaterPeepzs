@@ -6,20 +6,19 @@ ul von hinzugefügten Freunden
 
 @extends('frontend/layouts/app')
 
-  <div class="container justify-content-center items-align-center">
-    <div class="coloumn">
-      <h3>Personen suchen</h3>
-
-        <input type="text">
-        <button  class="bg-success">Hinzufügen</button>
-
-          <ul>
-            <li>Freund 1</li>
-            <li>Freund 2</li>
-            <li>Freund 3</li>
-          </ul>
+@section('content')
+<div class="container">
+  <h3 class="mt-3 item-align-center">Freunde hinzufügen</h3>
+  <form class="form-inline my-4 my-lg-0" method="GET" action="{{ url('/search') }}">
+    @csrf
+    <div class="input-group input-group-sm">
+      <input name="q" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="test">
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-secondary btn-number" href="{{ url('/search') }}">
+          Search
+        </button>
+      </div>
     </div>
-  </div>
-
-</body>
-</html>
+  </form>
+</div>
+@endsection 

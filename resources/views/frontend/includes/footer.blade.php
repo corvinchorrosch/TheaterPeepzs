@@ -7,11 +7,12 @@ Rechts Button Settings
 Einstellen, dass angeklickter Button geklicked ist
 -->
 
-<footer>
+<footer class="bg-info fixed-bottom">
 
-<div class="container bg-info">
+<div class="container">
 
-  <div class="row justify-content-center">
+  <div class="row justify-content-center navbar">
+  
     <div class="col-sm">
     <button>Home</button>
     </div>

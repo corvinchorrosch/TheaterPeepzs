@@ -12,8 +12,10 @@
 <body>
     @include('frontend/includes/header')
 
+    <div class="content">
     @yield('content')
-    
+    </div>
+
     @include('frontend/includes/footer')
 </body>
 
