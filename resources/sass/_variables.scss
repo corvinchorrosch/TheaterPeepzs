@@ -1,11 +1,16 @@
 // Body
-body{
-    font-family: sans-serif;
-    color: var(--primary);
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-}
+
+.box {
+    width: 450px;
+    background: rgba (0, 0, 0, 0.4);
+    opacity: 75%;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    background: MediumTurquoise;
+  }
 
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;

@@ -1,8 +1,5 @@
 <!--
-Links Button Home
-Links Mitte Button Friends
-Rechts Mitte Button Mail
-Rechts Button Settings
+Bug: Link auf die jeweiligen Seiten legen
 
 Einstellen, dass angeklickter Button geklicked ist
 -->
@@ -13,18 +10,23 @@ Einstellen, dass angeklickter Button geklicked ist
 
   <div class="justify-content-center d-flex justify-content-around">
     
-    <button class="btn btn-secondary btn-number">Home</button>
+  <a href="">
+    <button class="btn btn-secondary btn-number">My Shows</button>
+  </a>
 
+  <a href="">
     <button class="btn btn-secondary btn-number">Friends</button>
+  </a>
 
+  <a href="../mail">
     <button class="btn btn-secondary btn-number">Mail</button>
+  </a>
 
-    <a href="profile">
+  <a href="">
     <button class="btn btn-secondary btn-number">Profile</button>
-    </a>
+  </a>
 
   </div>
 
 </div>
-
 </footer>
