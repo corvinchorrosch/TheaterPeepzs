@@ -21,7 +21,7 @@ Paginate
       <input name="q" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Search">
       <div class="input-group-append">
         <button type="submit" class="btn btn-secondary btn-number" href="{{ url('/search') }}">
-          Search
+          Add
         </button>
       </div>
     </div>
